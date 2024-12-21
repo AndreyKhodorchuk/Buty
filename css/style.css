@@ -150,15 +150,14 @@ a {
 .cards {
 
     display: flex;
-    justify-content: center;
-    background: linear-gradient(45deg, #059669 0%, #10b981 100%);
 
     .card {
-        text-align: center;
-        margin: auto;
+        padding: 98px 43px;
         width: 100%;
-        height: 724px;
-        border: 0.2px solid #309a5e88;
+        background: linear-gradient(45deg, #059669 0%, #10b981 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 
@@ -213,24 +212,87 @@ a {
 
 .card__container-btn {
     margin-top: 24px;
-    margin-bottom: 92px;
     width: 100%;
     text-align: center;
+    cursor: pointer;
+
 }
 
-.card__btn {
-    font-family: "Work Sans", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.4;
-    color: #fff;
-    cursor: pointer;
-    width: 228px;
-    height: 60px;
-    background: linear-gradient(270deg, #059669 0%, #10b981 100%);
-    border: unset;
+.Exclusive-product__section {
+    position: relative;
+    padding-top: 162px;
 
-    &:hover {
-        opacity: 0.8;
+    .exclusive-product__background {
+        width: 1200px;
+        margin-left: 300px;
+        height: 451px;
+        background: linear-gradient(46deg, #059669 0%, #10b981 100%);
+    }
+
+    .Exclusive-product__information {
+        position: absolute;
+        top: 90px;
+        left: 200px;
+        width: 772px;
+        height: 485px;
+        background: #ecfdf5;
+        z-index: 1;
+    }
+
+    .Exclusive-product__text {
+        padding-top: 77px;
+        padding-left: 73px
+    }
+
+    .Exclusive-product {
+        width: 170px;
+        height: 34px;
+        margin-bottom: 10px;
+        background: #047857;
+
+        font-family: "Work Sans", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.4;
+        color: #ecfdf5;
+        padding: 6px 15px 6px 15px;
+    }
+
+    .Exclusive-product__titel {
+        font-size: 40px;
+        line-height: 1.4;
+        color: #047857;
+        padding-bottom: 24px;
+    }
+
+    p {
+        font-family: "Work Sans", sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #047857;
+        padding-bottom: 20px;
+    }
+
+    .Exclusive-product__ingredients {
+        padding-bottom: 24px;
+    }
+
+    .Exclusive-product__link {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #047857;
+        border-bottom: 2px solid #047857;
+        padding-bottom: 4px;
+    }
+
+    .Exclusive-product__img {
+        position: relative;
+        background: none;
+        z-index: 2;
+        top: -668px;
+        right: -506px;
     }
 }
