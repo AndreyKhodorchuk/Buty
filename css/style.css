@@ -14,6 +14,10 @@ a {
     color: currentColor;
 }
 
+li {
+    list-style-type: none;
+}
+
 .button {
     cursor: pointer;
     padding: 14px 28px;
@@ -219,6 +223,7 @@ a {
 }
 
 .Exclusive-product__section {
+    height: 668px;
     position: relative;
     padding-top: 162px;
 
@@ -295,4 +300,86 @@ a {
         top: -668px;
         right: -506px;
     }
+}
+
+
+
+.footer {
+    display: flex;
+    margin: 200px 100px 67px 100px;
+    font-family: "Work Sans", sans-serif;
+    white-space: nowrap;
+
+    .footer__logo-cotainer {
+        padding-right: 120px;
+
+        img {
+            width: 117px;
+            height: 36px;
+        }
+
+        .footer__logo-text {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 1.4;
+            color: #064e3b;
+            padding-top: 75px;
+        }
+    }
+
+    .footer__menu {
+        font-family: "Work Sans", sans-serif;
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        padding-right: 258px;
+
+        .footer__about-item {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1.4;
+            color: #064e3b;
+        }
+
+        li {
+            padding-bottom: 20px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.4;
+            color: #064e3b;
+        }
+
+        .footer__articlea-item {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1.4;
+            color: #064e3b;
+        }
+
+        .footer__contact-list {
+            padding-bottom: 45px;
+
+            .footer__contact-item {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 1.4;
+                color: #064e3b;
+            }
+        }
+
+    }
+
+    .footer__connection {
+
+        span {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 1.4;
+            color: #064e3b;
+            display: flex;
+            padding-bottom: 70px;
+
+        }
+    }
+
 }
