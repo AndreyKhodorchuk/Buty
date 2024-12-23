@@ -392,6 +392,7 @@ li {
             height: 33px;
             width: 280px;
             border: none;
+            outline: none;
         }
 
 
