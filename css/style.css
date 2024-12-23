@@ -222,34 +222,32 @@ li {
 
 }
 
-.Exclusive-product__section {
-    height: 668px;
+.exclusive-product__section {
     position: relative;
-    padding-top: 162px;
+    padding-top: 215px;
+    max-width: 1300px;
+    margin-left: 290px;
 
     .exclusive-product__background {
-        width: 1200px;
-        margin-left: 300px;
-        height: 451px;
+        height: 450px;
         background: linear-gradient(46deg, #059669 0%, #10b981 100%);
     }
 
-    .Exclusive-product__information {
+    .exclusive-product__information {
         position: absolute;
-        top: 90px;
-        left: 200px;
-        width: 772px;
-        height: 485px;
+        bottom: 25px;
+        left: -120px;
         background: #ecfdf5;
         z-index: 1;
     }
 
-    .Exclusive-product__text {
-        padding-top: 77px;
-        padding-left: 73px
+    .exclusive-product__text {
+        padding: 90px;
+        padding-right: 190px;
+        padding-bottom: 80px;
     }
 
-    .Exclusive-product {
+    .exclusive-product {
         width: 170px;
         height: 34px;
         margin-bottom: 10px;
@@ -263,7 +261,7 @@ li {
         padding: 6px 15px 6px 15px;
     }
 
-    .Exclusive-product__titel {
+    .exclusive-product__titel {
         font-size: 40px;
         line-height: 1.4;
         color: #047857;
@@ -280,11 +278,11 @@ li {
         padding-bottom: 20px;
     }
 
-    .Exclusive-product__ingredients {
+    .exclusive-product__ingredients {
         padding-bottom: 24px;
     }
 
-    .Exclusive-product__link {
+    .exclusive-product__link {
         font-weight: 500;
         font-size: 18px;
         line-height: 1.4;
@@ -293,13 +291,17 @@ li {
         padding-bottom: 4px;
     }
 
-    .Exclusive-product__img {
-        position: relative;
-        background: none;
+    .exclusive-product__img {
+        position: absolute;
+        bottom: 17px;
+        right: -6px;
         z-index: 2;
-        top: -668px;
-        right: -506px;
+        width: 1000px;
+        height: 650px;
     }
+
+
+
 }
 
 
@@ -370,16 +372,41 @@ li {
     }
 
     .footer__connection {
+        .footer__conection-container {
+            display: flex;
+            border-bottom: 1.50px solid #064e3b;
+            width: 301px;
+            padding-bottom: 10px;
+        }
 
-        span {
+        p {
+            font-family: "Work Sans", sans-serif;
             font-weight: 600;
             font-size: 18px;
             line-height: 1.4;
             color: #064e3b;
-            display: flex;
-            padding-bottom: 70px;
-
+            padding-bottom: 47px;
         }
+
+        input {
+            height: 33px;
+            width: 280px;
+            border: none;
+        }
+
+
+        input::placeholder {
+            font-family: "Work Sans", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.4;
+            color: #cfdad7;
+        }
+
+        .footer__icon-container {
+            padding-top: 10px;
+        }
+
     }
 
 }
